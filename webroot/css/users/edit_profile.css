@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+}
+
+.container {
+    border: 0px solid black;
+    text-align: center;
+    padding: 0em 5em;
+}
+
+hr {
+    color: #0f956d;
+    background-color: #0f956d;
+    border: 1px inset #0f8c66;
+    height: 3px;
+}
+
+.container .left-side {
+    text-align: left;
+    float: left;
+}
+
+.container .right-side {
+    float: right;
+}
+
+.container .right-side img {
+    height: 20em;
+}
+
+.flash-message-success {
+    float: right;
+    display: none;
+    color: white;
+    width: 100%;
+    margin-top: -0.2em;
+    margin-bottom:  0em;
+    border: 2px solid #169176;
+    background-color: #16a085;
+    text-align: center;
+    padding: 0.5em 1em;
+    font-family: Calibri;
+    font-size: 15px;
+}

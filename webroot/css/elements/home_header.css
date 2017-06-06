@@ -1,0 +1,132 @@
+/**
+ * Begin styling the header
+ */
+
+.header {
+    background-color: white;
+    box-shadow: 1px 1px 1px #16a085;
+    padding: 2px;
+    position: static;
+    left: 0em;
+    right: 0em;
+    height: 2.5em;
+}
+
+.header .logo-link .logo {
+    float: left;
+    height: 2em;
+    margin-left: 5em;
+    margin-top: 5px;
+}
+
+.header .menu {
+    float: left;
+    margin-left: -25px;
+    margin-top: 12px;
+}
+
+.header .menu .dotspacer {
+    color: #12a35f;
+}
+
+.header .menu li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.header .menu li a {
+    text-decoration: none;
+    color: #09a05d;
+    font-family: cursive;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 7px 0px;
+    border-radius: 0px;
+}
+
+.header .menu li a:hover {
+    border-bottom: 5px solid #09ae67;
+    transition: all 0.1s ease-in-out 0.1s;
+    background-color: transparent;
+    color: #09a05d;
+}
+
+.header .settings {
+    text-align: right;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5em;
+}
+
+.header .settings li {
+    list-style-type: none;
+}
+
+.header .settings li a {
+    color: #09a05d;
+    text-decoration: none;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.header .settings li a img {
+    vertical-align: middle;
+    height: 2em;
+    border-radius: 2em;
+    border: 1px solid #0f8c66;
+}
+
+
+.header .settings ul {
+    position: absolute;
+    right: 5em;
+    display: none;
+    background-color: #09a05d;
+    box-shadow: 0px 0px 1px #09a05d;
+    margin-right: 0px;
+    text-align: left;
+    border: 2px solid white;
+    padding: 20px 10px 0px 10px;
+    margin-top: 0.5em;
+    border-radius: 3px;
+}
+
+.header .settings ul li {
+    display: block;
+    vertical-align: top;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #0f8c66;
+}
+
+.header .settings ul li img {
+    height: 18px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.header .settings ul li a:hover {
+    transition: all 0.5s ease-in-out 0s;
+    color: #084d37;
+}
+
+.header .settings ul li a {
+    text-decoration: none;
+    vertical-align: middle;
+    font-family: "Ubuntu Condensed";
+    color: white;
+}
+
+.header form {
+    display: inline-block;
+    float: left;
+    margin-right: 9em;
+    margin-top: 7px;
+    width: 50%;
+}
+
+.header form input {
+    border: 1px solid #0f8c66;
+    height: 2em;
+    width: 100%;
+}

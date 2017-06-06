@@ -1,0 +1,147 @@
+.flash-message-success {
+    float: right;
+    display: none;
+    color: white;
+    width: 100%;
+    margin-top: -1em;
+    margin-bottom:  0.75em;
+    border: 2px solid #169176;
+    background-color: #16a085;
+    text-align: center;
+    padding: 0.5em 1em;
+    font-family: Calibri;
+    font-size: 15px;
+}
+
+.flash-message-danger {
+    float: right;
+    display: none;
+    color: white;
+    width: 100%;
+    margin-top: -1em;
+    margin-bottom:  0.75em;
+    border: 2px solid rgba(219,0,16,0.8);
+    background-color: rgba(219,0,16,1);
+    text-align: center;
+    padding: 0.5em 1em;
+    font-family: Calibri;
+    font-size: 15px;
+}
+
+.sharing-board {
+    background-color: #084d37;
+    background-color: #17a185;
+    padding: 1em 20em;
+    margin: auto;
+}
+
+.sharing-board form h1 {
+    font-size: 20px;
+    font-family: "Ubuntu Light";
+    color: white;
+}
+
+.sharing-board form hr {
+    color: #f8f8f8;
+}
+
+.sharing-board form p .post-title {
+    width: 98.3%;
+    height: 2.5em;
+    padding-left: 5px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 2px;
+}
+
+.sharing-board form p textarea {
+    border: 1px solid #E0E0E0;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    font-family: Ubuntu;
+    max-width: 98.3%;
+    min-width: 98.3%;
+    min-height: 8em;
+    max-height: 8em;
+}
+
+.sharing-board form p .post-file {
+    width: 99.3%;
+    border: 1px solid #E0E0E0;
+    background-color: #ffffff;
+}
+
+.sharing-board form p .post-btn {
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Ubuntu;
+    width: 15em;
+    height: 2.5em;
+    background-color: #286c41;
+    border: 2px solid #308e57;
+    border-radius: 2px;
+}
+
+.sharing-board form p .post-btn:hover {
+    transition: all 0.5s ease-in-out 0s;
+    background-color: #0f589a;
+}
+
+.post-feed {
+    background-color: white;
+    padding: 1em 20em;
+    margin: auto;
+}
+
+.post-feed .post{
+    border: 1px solid #dedede;
+    padding: 0.5em;
+    box-shadow: 0.0075em 0.0075em 0.08em #4a4a4a;
+    font-family: Ubuntu;
+    font-size: 13px;
+}
+
+.post-feed .post .poster {
+    color: #5f90b0;
+    float: left;
+}
+
+.post-feed .post .posted-in {
+    color: #5f90b0;
+    float: right;
+}
+.post-feed .post .poster .poster-avatar {
+    vertical-align: middle;
+    height: 1.5em;
+    border-radius: 2em;
+    border: 1px solid #0f8c66;
+    margin-right: 0.5em;
+}
+
+.post-feed .post h1 {
+    margin-top: 15px;
+    font-family: "sans serif";
+    color: #084d37;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.post-feed .post .downloads {
+    float: left;
+}
+
+.post-feed .post .comments {
+    float: right;
+}
+
+.post-feed .post .downloads img {
+    height: 1.5em;
+    margin-right: 0.2em;
+    vertical-align: middle;
+}
+
+.post-feed .post .comments img {
+    height: 1.5em;
+    margin-right: 0.2em;
+    vertical-align: middle;
+}

@@ -1,0 +1,73 @@
+/**
+ * Begin styling the header
+ */
+
+.header {
+    background-color: white;
+    box-shadow: 0px 0px 0px #16a085;
+    padding: 2px;
+    position: static;
+    left: 0em;
+    right: 0em;
+    height: 2.5em;
+}
+
+.header .logo-link .logo {
+    cursor: pointer;
+    float: left;
+    height: 2em;
+    margin-left: 5em;
+    margin-top: 5px;
+}
+
+.header .logo-link .logo:hover{
+    transition: all 1s ease-in-out 0.3s;
+    transform: rotate(360deg);
+}
+
+.header .menu {
+    float: left;
+    margin-left: -25px;
+    margin-top: 12px;
+}
+
+.header .menu .dotspacer {
+    color: #12a35f;
+}
+
+.header .menu li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.header .menu li a {
+    text-decoration: none;
+    color: #09a05d;
+    font-family: cursive;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 7px 0px;
+    border-radius: 0px;
+}
+
+.header .menu li a:hover {
+    border-bottom: 5px solid #09ae67;
+    transition: all 0.1s ease-in-out 0.1s;
+    background-color: transparent;
+    color: #09a05d;
+}
+
+.header .languages {
+    float: right;
+    margin-top: 7px;
+    margin-right: 4em;
+}
+
+.header .languages select {
+    background-color: white;
+    border: 0px solid #09a05d;
+    background-color: white;
+    height: 2em;
+    width: 7em;
+}
+/** End styling header **/

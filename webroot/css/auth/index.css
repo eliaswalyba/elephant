@@ -1,0 +1,266 @@
+body {
+    background: url("../../img/backpaper3.jpg") no-repeat;
+    background-size: cover;
+}
+
+.forms-container {
+    border: 0px solid red;
+    height: auto;
+    float: right;
+    margin-bottom: 2em;
+    margin-top: 5px;
+}
+
+
+/**
+ * Begin styling the login form
+ */
+.login-form {
+    z-index: 1;
+    border: 1px solid #d0d0d0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0em 3em 0.2em;
+    width: 20em;
+    height: auto;
+    background-color: #bdc3c7;
+    background-color: rgba(255,255,255,1);
+}
+
+    .login-form .form-title span {
+        color: white;
+        background-color: crimson;
+        margin-top: 10px;
+        border: 1px solid red;
+        padding: 20px 5px;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .login-form .form-title h2 {
+        font-family: "Century Gothic";
+        font-size: 23px;
+        font-weight: normal;
+    }
+
+    .login-form .form-elements label {
+        padding-bottom: 30px;
+        font-family: Calibri;
+    }
+
+    .login-form .form-elements input {
+        margin: 3px 0px 5px;
+        border: 1px solid #c6c6c6;
+        padding-left: 5px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        color: #084d37;
+    }
+
+    .login-form .form-elements input:focus {
+        transition: all 0.5s ease-in-out 0s;
+        border: 1px solid #16a085;
+    }
+
+    .login-form .form-elements .login-field {
+        height: 2em;
+        width: 98%;
+    }
+
+    .login-form .form-elements .password-field {
+        height: 2em;
+        width: 60%;
+        margin-right: 0px;
+
+    }
+
+    .login-form .form-elements .login-btn {
+        float: right;
+        height: 2.3em;
+        width: 36.5%;
+        margin-right: 0px;
+        color: white;
+        background-color: #16a085;
+        border: 2px solid #17a185;
+        border-radius: 2px;
+    }
+
+    .login-form .form-elements .login-btn:hover {
+        transition: all 0.3s ease-in-out 0.1s;
+        border: 1px solid #16a085;
+        cursor: pointer;
+        background-color: transparent;
+        color: #16a085;
+    }
+
+    .under-form {
+
+    }
+
+    .login-form .form-elements .stay-tunned-checkbox {
+        margin-right: 2px;
+        font-size: 10px;
+    }
+
+    .stay-tunned-checkbox-label {
+        margin-top: -20px;
+        font-size: 12px;
+    }
+
+    .lost-password {
+        float: right;
+        text-decoration: none;
+        margin-top: -17px;
+        margin-right: 15px;
+        font-size: 12px;
+    }
+/** End styling login form **/
+
+
+.register-form {
+    margin: 0em 3em;
+    width: 20em;
+    height: auto;
+    background-color: rgba(255,255,255,1);
+    border: 1px solid #d0d0d0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0.5em;
+
+}
+
+    .register-form .form-title h4 {
+        font-family: "Ubuntu Condensed";
+        font-size: 23px;
+        font-weight: normal;
+    }
+
+.register-form .form-title h4 em {
+    color: #6c6c6c;
+    font-size: 16px;
+}
+
+    .register-form .form-elements label {
+        padding-bottom: 30px;
+        font-family: Ubuntu;
+        color: #777777;
+        font-size: 15px;
+    }
+
+    .register-form .form-elements input {
+        margin: 3px 0px 15px;
+        background-color: white;
+        color: #000000;
+    }
+
+    .register-form .form-elements .full-name-field {
+        height: 2em;
+        width: 98%;
+        border: 1px solid #c6c6c6;
+        padding-left: 5px;
+        box-shadow: inset 0.2em 0.2em 0.2em #dddddd;
+        border-radius: 2px;
+    }
+
+    .register-form .form-elements .register-email-field {
+        height: 2em;
+        width: 98%;
+        margin-right: 2px;
+        border: 1px solid #c6c6c6;
+        padding-left: 5px;
+        box-shadow: inset 0.2em 0.2em 0.2em #dddddd;
+        border-radius: 2px;
+    }
+
+    .register-form .form-elements .register-password-field {
+        height: 2em;
+        width: 98%;
+        margin-right: 2px;
+        border: 1px solid #c6c6c6;
+        padding-left: 5px;
+        box-shadow: inset 0.2em 0.2em 0.2em #dddddd;
+        border-radius: 2px;
+    }
+
+    .register-form .form-elements .register-btn {
+        height: 2.4em;
+        width: 8em;
+        margin-right: 0px;
+        color: white;
+        background-color: #cf5719;
+        border: 2px solid #d45819;
+        border-radius: 2px;
+    }
+
+    .register-form .form-elements .register-btn:hover {
+        transition: all 0.3s ease-in-out 0.1s;
+        border: 1px solid #ad5f17;
+        cursor: pointer;
+        background-color: transparent;
+        color: #ad5f17;
+    }
+
+
+.presentation {
+    border: 0px solid white;
+    height: auto;
+    float: left;
+    padding: 2em;
+    text-align: left;
+    background-color: #1F8E47;
+    background-color: rgba(255,255,255,0.9);
+    background-color:transparent;
+    margin-top: 0px;
+    margin-left: 3em;
+    margin-right: 3em;
+    border-radius: 0em 0em 1em 1em;
+    box-shadow: 0px 0px 0px white;
+}
+
+
+.presentation .presentation-title {
+    font: 30px Ubuntu;
+    color: white;
+    color: #11ab7e;
+    font-weight: bold;
+}
+
+.presentation h3 {
+    font: 15.3px "Helvetica";
+}
+
+.flash-message-danger {
+    float: right;
+    display: none;
+    color: white;
+    width: 100%;
+    margin-top: -0.2em;
+    margin-bottom:  0em;
+    border: 2px solid rgba(219,0,16,0.8);
+    background-color: rgba(219,0,16,1);
+    text-align: center;
+    padding: 0.5em 1em;
+    font-family: Calibri;
+    font-size: 15px;
+}
+
+.flash-message-success {
+    float: right;
+    display: none;
+    color: white;
+    width: 100%;
+    margin-top: -0.2em;
+    margin-bottom:  0em;
+    border: 2px solid rgba(36, 171, 87, 0.8);
+    border: 2px solid #169176;
+    background-color: rgb(15, 149, 109);
+    background-color: #16a085;
+    text-align: center;
+    padding: 0.5em 1em;
+    font-family: Calibri;
+    font-size: 15px;
+}
